@@ -66,3 +66,21 @@ git push
 ## D) Wichtiger Hinweis
 
 Eine `.gitignore` ist im Projekt vorhanden, damit Cache-/Build-Dateien (z. B. `__pycache__`) nicht mehr versehentlich hochgeladen werden.
+
+---
+
+## E) PR zeigt weiterhin Konflikte? (Auto-Fix)
+
+Wenn GitHub weiterhin Konflikte zeigt (z. B. in `INSTALLATION_DE.md` oder `OfflineArcadeWindows/app.py`), nutze:
+
+```bash
+./scripts/fix_github_conflicts_keep_ours.sh main
+```
+
+Windows (cmd):
+
+```bat
+scripts\fix_github_conflicts_keep_ours.bat main
+```
+
+Das Script merged `origin/main` in deinen Branch und übernimmt bei bekannten Konfliktdateien automatisch **deine aktuelle Branch-Version** (`--ours`), committet und pusht.
