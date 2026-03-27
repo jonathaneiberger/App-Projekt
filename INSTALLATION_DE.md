@@ -104,3 +104,9 @@ Für den korrekten direkten Upload nutze:
 - `UPLOAD_GITHUB_DE.md`
 - `scripts/github_first_push.sh` / `scripts/github_first_push.bat`
 - `scripts/github_update_push.sh` / `scripts/github_update_push.bat`
+
+---
+
+## 3D-Komplettversion (Godot)
+
+Wenn du die komplett überarbeitete 3D-Version möchtest, nutze `OfflineArcade3D/README.md`.
