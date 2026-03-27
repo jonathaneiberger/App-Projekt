@@ -94,3 +94,13 @@ Die PIN `2907` ist nur ein MVP-Default. Für echten Einsatz:
 - PIN nicht im Klartext im Code lassen,
 - sichere Speicherung nutzen (iOS Keychain / Windows Credential Locker),
 - ggf. Admin-Modus für PIN-Änderung ergänzen.
+
+---
+
+## GitHub Upload (einfach)
+
+Für den korrekten direkten Upload nutze:
+
+- `UPLOAD_GITHUB_DE.md`
+- `scripts/github_first_push.sh` / `scripts/github_first_push.bat`
+- `scripts/github_update_push.sh` / `scripts/github_update_push.bat`
